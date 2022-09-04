@@ -1,0 +1,117 @@
+html{
+    height: 100%;
+}
+
+body{
+    background-color: gray;
+}
+
+.kutu{
+    width: 350px;
+    height: 75px;
+    margin-top: 5px;
+    margin-left: 475px;
+    background-color: lightpink;
+    border: 10px;
+    
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
+    border-bottom-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+
+}
+
+h3{
+    position: absolute;
+    text-align: center;
+    top: 140px;
+    left: 1160px;
+    transform: translate(-50%, -50%);
+    margin: 0;
+}
+
+h3{
+    color: rgb(155, 3, 3);
+    font-size: 25px;
+}
+
+h1 {
+  position:absolute;
+  text-align: center;
+  top: 6.8%;
+  left: 48%;
+  transform: translate(-50%, -50%);
+  margin: 0;
+}
+h1{
+    color: gray;
+    font-size: 45px;
+}
+
+h4{
+    position: absolute;
+    text-align: center;
+    top: 600px;
+    left: 1300px;
+    transform: translate(-50%, -50%);
+    margin: 0;
+}
+
+h4{
+    font-style: italic;
+    font-size: 17px;
+    color: purple;
+}
+
+p{
+    font-style: oblique;
+    font-size: large;
+}
+
+h2{
+    font-style: italic;
+    font-size: x-large;
+}
+
+
+.kalp{
+	position: fixed;
+	width: 200px;
+	height: 170px;
+	margin-top: -7px;
+    margin-left: 1050px;
+}
+ 
+.kalp:after,
+.kalp:before{
+	content: "";
+	position: absolute;
+	height: 160px;
+	width: 100px;
+	background-color: rgb(250, 158, 172);
+	border-radius: 50px 50px 0 0;
+}
+ 
+/* birinci şekil */
+.kalp:after{
+	-webkit-transform:rotate(45deg);
+	transform:rotate(45deg);
+ 
+	-webkit-transform-origin: 100% 100%;
+	transform-origin: 100% 100%;
+ 
+	left: 0px;
+}
+ 
+/* ikinci şekil */
+.kalp:before{
+	-webkit-transform:rotate(-45deg);
+	transform:rotate(-45deg);
+ 
+	-webkit-transform-origin: 0 100%;
+	transform-origin: 0 100%;
+	
+	left: 100px;
+    
+}
+
